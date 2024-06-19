@@ -27,7 +27,7 @@ const app = express();
 // Middleware setup
 app.use(
   cors({
-    origin: "http://localhost:3000", // Your frontend origin
+    origin: "https://likeslelo.onrender.com/", // Your frontend origin
     credentials: true,
   })
 );
